@@ -1,0 +1,68 @@
+
+
+Android manifest
+
+permissions
+namespace
+
+
+
+
+4 main components
+
+Activities - UI part, class(logic) and xml(design) associated with it
+
+Content provider - provide content from like a database, the content provider will connect and talk to database not the app
+
+Services - used to perform long running tasks on android, play music but not staying on the app, like background services. With new threads you do long calculations or outside calls. Might consume too many resources
+
+Broadcast receivers - interprocess communications, data from process to process, thread to thread, if app needs bluetooth to work and user turns it off need to notify user and broadcast receivers will listen if the user turns off bluetooth
+
+
+Receivers and services need to be declared in the manifest
+
+
+
+
+
+
+Testing
+
+Integration testing -  how different modules are integrated together, test multiple classes and flow of data
+Unit test - just test one method or class
+
+Drawables - save any images, use different sizes for different screen sizes
+Layout - constrained layout new layout, will be using linear layout in class to practice speed, relative is old way
+Values - used throughout the whole app: colors, strings, styles (used in manifest or different activities
+
+
+Project quick fix (show intention actions and quick fixes)	Alt + Enter	Option + Enter
+
+Support multiple languages new values resource file
+Also can do right click strings -> open translations editor
+
+
+Build cradle files has different configurations and build types, can have multiple configurations for different builds
+	converts whole app project into apk file and can be installed on device
+	can store api keys on here and progaurd so they won’t be found by reverse engineering
+	can add dependencies here, the libraries
+	always sync when you change cradle file
+
+
+
+Match parent covers whole screen
+
+
+
+
+
+
+Shortcuts used
+
+Project quick fix alt+enter
+Related navigation control+command+uparrow
+
+
+
+
+
