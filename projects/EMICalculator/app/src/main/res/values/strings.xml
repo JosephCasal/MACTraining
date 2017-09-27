@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">EMI Calculator</string>
+    <string name="field1">Principal (Loan amount):</string>
+    <string name="field2">Annual Interest Rate (%):</string>
+    <string name="button_name">Calculate</string>
+    <string-array name="Time_array">
+        <item>Months</item>
+        <item>Years</item>
+    </string-array>
 </resources>
