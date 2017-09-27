@@ -1,0 +1,45 @@
+notes
+
+
+
+Shortcuts
+
+Switch to project - command + 1
+Re indent code - command + option + L
+Command alt f - extract field
+Command alt m - extract method
+Command p - to see parameters you need
+
+
+Two types of views in android
+
+Views and view groups
+
+Multiple views in view groups
+
+Frame layout you can overlap them, used for fragments
+
+
+
+Intent tells the component what does it do or what is the intent of the second component
+
+
+
+Lifecycle and config changes
+
+
+
+launcher class has intent-filter
+
+
+When you see activity it is onresume
+Onpause see it in the background
+Nonstop don’t see activity
+Ondestroy activity killed
+
+
+Ondestroy not guaranteed to be called, so clear your things and references onstop
+
+
+
+When you rotate device it destroys current activity and start it again so can lose the stuff we have on it, need onsaveinstancestate and onrestoreinstancestate

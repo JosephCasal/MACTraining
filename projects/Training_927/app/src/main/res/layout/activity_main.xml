@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="20dp"
+    android:gravity="center_vertical"
+
+    tools:context="com.example.joseph.training_927.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:hint="First name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:hint="Last name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="savePerson"
+            android:id="@+id/btnFirst"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Save to list"/>
+
+        <Button
+            android:onClick="printPersons"
+            android:id="@+id/btnSecond"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Print names"
+            android:layout_toRightOf="@+id/btnFirst"
+            android:layout_below="@+id/btnFirst"/>
+
+        <Button
+            android:onClick="goToSecond"
+            android:id="@+id/btnGoToSecond"
+            android:layout_toRightOf="@+id/btnSecond"
+            android:text="Go to Second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ivUchiha"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/uchihasybol"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/ivUchiha2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/uchihasybol"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:text="Uchiha"/>
+
+    </FrameLayout>
+
+</LinearLayout>
