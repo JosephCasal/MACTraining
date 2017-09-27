@@ -43,3 +43,18 @@ Ondestroy not guaranteed to be called, so clear your things and references onsto
 
 
 When you rotate device it destroys current activity and start it again so can lose the stuff we have on it, need onsaveinstancestate and onrestoreinstancestate
+
+
+
+
+Calculator homework:
+
+One activity for calculator
+Use buttons for the numbers
+One textview at top
+Rotate device for scientific calculator
+
+
+
+
+
