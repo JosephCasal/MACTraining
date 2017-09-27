@@ -1,0 +1,4 @@
+#Tue Sep 26 11:43:16 EDT 2017
+base.0=/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_549bf7a666baa99bdbe7cf220788f790087a0ac7
+renamed.0=classes.dex
+file.0=/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_549bf7a666baa99bdbe7cf220788f790087a0ac7/classes.dex

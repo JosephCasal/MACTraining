@@ -1,0 +1,7 @@
+#Tue Sep 26 11:43:17 EDT 2017
+base.0=/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d5bd2c819ba6ca5376eb727cbe112103b8bb66c2
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_203182885c6f9ac33ffab1e0037f726b5cbc7cd4/classes.dex
+base.1=/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_203182885c6f9ac33ffab1e0037f726b5cbc7cd4
+file.0=/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d5bd2c819ba6ca5376eb727cbe112103b8bb66c2/classes.dex

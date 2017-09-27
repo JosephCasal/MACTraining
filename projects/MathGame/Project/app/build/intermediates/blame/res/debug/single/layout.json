@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/layout/game.xml",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/layout/game.xml"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/layout/game_challenge.xml",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/layout/game_challenge.xml"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/layout/activity_main_menu.xml",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/layout/activity_main_menu.xml"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/layout/play_options.xml",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/layout/play_options.xml"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/layout/score.xml",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/layout/score.xml"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/layout/game_practice.xml",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/layout/game_practice.xml"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/layout/practice_options.xml",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/layout/practice_options.xml"
+    }
+]

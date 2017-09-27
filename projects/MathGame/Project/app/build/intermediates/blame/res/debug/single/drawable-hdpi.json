@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/right.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/right.png"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/true_background.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/true_background.png"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/false_background.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/false_background.png"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/red_apple.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/red_apple.png"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/circle.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/circle.png"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/lline.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/lline.png"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/green_apple.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/green_apple.png"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/arrow_ponting_left.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/arrow_ponting_left.png"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/sound_off.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/sound_off.png"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/back_menu_practice.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/back_menu_practice.png"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/arrow_pointing_rigth.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/arrow_pointing_rigth.png"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/blank_chalkboard_background.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/blank_chalkboard_background.png"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/yellow_apple.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/yellow_apple.png"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/wrong.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/wrong.png"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/circle_blue.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/circle_blue.png"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/drawable-hdpi/sound_on.png",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/drawable-hdpi/sound_on.png"
+    }
+]

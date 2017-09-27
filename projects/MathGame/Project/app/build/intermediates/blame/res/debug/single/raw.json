@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/raw/happy_instrumental.mp3",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/raw/happy_instrumental.mp3"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/raw/flawless_victory.mp3",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/raw/flawless_victory.mp3"
+    },
+    {
+        "merged": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/build/intermediates/res/merged/debug/raw/victory_music.mp3",
+        "source": "/Users/joseph/Desktop/MAC_AndroidTraining/MathGame/Project/app/src/main/res/raw/victory_music.mp3"
+    }
+]
