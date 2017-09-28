@@ -1,12 +1,14 @@
 package com.example.joseph.lifecycleandconfigchanges;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -81,5 +83,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void updateTextView(View view) {
         textView.setText(editText.getText().toString());
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        if(newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE){
+            Toast.makeText(this, "Landscape", Toast.LENGTH_SHORT).show();
+        }else{
+            if(newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE){
+                Toast.makeText(this, "Portrait", Toast.LENGTH_SHORT).show();
+            }
+        }
     }
 }

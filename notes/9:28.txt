@@ -1,0 +1,86 @@
+
+
+
+Shortcut
+
+command + click go to declaration
+
+
+
+Review polymorphism, parcelable is polymorphism
+
+
+
+
+Onpause is partially visible (like alert dialog box
+Onstop is not visible
+
+2 activities:
+
+1st	oncreate
+	onstart
+	onresume
+(Gotosecondactivity)
+	onpause
+2nd	oncreate
+	onstart
+	onresume
+1st	onstop
+
+
+
+Clear your resources in onstop
+
+
+bundle can have multiple intents
+Bundle is used mostly to communicate between different components or threads
+
+Can restrict app to portrait or landscape in the manifest for each activity
+Android:screenOrientation=“portrait”
+
+To handle all the config changes yourself
+Android:configChanges=“screenSize|orientation|keyboardHidden”
+
+
+
+Difference between serializable and parcelable, most common question in interview, remember the method names what each does and the whole process
+
+When you want to send object to components, data needs to be converted to byte code.
+Intent converts to byte code but they need to implement the interfaces
+Serializable used in java, uses reflection creates a copy, creates an object, uses more memory and time
+Parcelable used in android, does not use reflection we write down each field and convert it ourselves, for marshaling it calls writeToParcel, for second activity it uses the creator field and createfromparcel. fields: creator[createfromparcel, createfromarray], write to parcel, and describe content (usually 0)
+
+Both Serializable and Pacelable are interfaces used for marshaling and unmarshaling
+
+Marshaling and unmarshaling, convert to and from byte code so jvm can send it and unmarshaling is to turn it back
+
+
+Explicit intent: when we tell the intent which component we want to start, what is the intent of the class
+Implicit intent: when you don’t know which component will start, you set the type and action and the intent filter will know which component or app it will use.
+
+Actions are set in the manifest
+
+
+
+companies create a util package which has a class called CONSTANTS and has all the string and other constants
+static class Actions{
+	public static final String ACTION_PERSON_PARCELABLE = “personParcelable”;
+	public static final String ACTION_PERSON_SERIALIZABLE = “personSerializable”;
+}
+
+And for keys
+You should never hard code anything
+
+
+
+
+
+
+
+
+
+
+
+
+
+

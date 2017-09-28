@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joseph.parcelableandserializable.MainActivity">
+
+    <EditText
+        android:hint="Name"
+        android:id="@+id/etPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Age"
+        android:id="@+id/etAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Gender"
+        android:id="@+id/etGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Address"
+        android:id="@+id/etAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Send Parcelable"
+        android:id="@+id/btnPersonParcelable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendPerson"/>
+    <Button
+        android:text="Send Serializable"
+        android:id="@+id/btnPersonSerializable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendPerson"/>
+    <Button
+        android:text="Share Person"
+        android:id="@+id/btnSharePerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendPerson"/>
+    <Button
+        android:text="Add Person To List"
+        android:id="@+id/btnAddToList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addToList"/>
+    <Button
+        android:text="Send Person List"
+        android:id="@+id/btnSendList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendList"/>
+
+</LinearLayout>
