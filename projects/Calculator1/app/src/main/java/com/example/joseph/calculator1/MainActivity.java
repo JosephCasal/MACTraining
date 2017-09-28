@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         currentAns = 0;
         currentOperator = "";
-        operatorButtonID = -1;
+//        operatorButtonID = -1;
         prevAns = 0;
         previnput = "";
         i = 0;
@@ -81,6 +81,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    // TODO change color of button operators when pressed, like iphone changes border
+
     private void addToExpression(String s, View view){
         if(s.equals("C")){
             tvValue.setText("");
@@ -89,17 +91,16 @@ public class MainActivity extends AppCompatActivity {
             previnput = "";
             if(currentOperator == ""){
             }else{
-                findViewById(operatorButtonID).setBackgroundColor(0xD3D3D3);
+//                findViewById(operatorButtonID).setBackgroundColor(0xD3D3D3);
                 currentOperator = "";
-                operatorButtonID = -1;
+//                operatorButtonID = -1;
             }
         }else if(s.equals("DEL")){          // TODO
 //            String currentString = tvValue.getText().toString();
 //            tvValue.setText(currentString.substring(0, currentString.length()-1));
-        }else if(s.equals("=")){        // TODO
+        }else if(s.equals("=")){        // TODO check if previnput was operator and do like iphone calculator
             calculate();
-            currentOperator = "";
-        }else if(s.equals("±")){
+        }else if(s.equals("±")){        // TODO check if previnput was operator and do like iphone
             if(currentAns > 0)
                 tvValue.setText("-" + tvValue.getText().toString());
             else if(currentAns < 0)
@@ -112,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
         }else if(s.equals("+")){
             if(currentOperator == ""){
                 currentOperator = "+";
-                ((Button) view).setBackgroundColor(0x00FF00);
+//                ((Button) view).setBackgroundColor(0x00FF00);
                 prevAns = currentAns;
                 currentAns = 0;
                 previnput = "+";
@@ -122,85 +123,103 @@ public class MainActivity extends AppCompatActivity {
                 prevAns = currentAns;
                 currentAns = 0;
                 currentOperator = "+";
-                ((Button) view).setBackgroundColor(0x00FF00);
-                operatorButtonID = view.getId();
+//                ((Button) view).setBackgroundColor(0x00FF00);
+//                operatorButtonID = view.getId();
                 previnput = "+";
             }
         }else if(s.equals("-")){
             if(currentOperator == ""){
                 currentOperator = "-";
-                ((Button) view).setBackgroundColor(0x00FF00);
+//                ((Button) view).setBackgroundColor(0x00FF00);
+                prevAns = currentAns;
+                currentAns = 0;
+                previnput = "-";
             }else{
-                findViewById(operatorButtonID).setBackgroundColor(0xD3D3D3);
+//                findViewById(operatorButtonID).setBackgroundColor(0xD3D3D3);
                 calculate();
+                prevAns = currentAns;
+                currentAns = 0;
                 currentOperator = "-";
-                ((Button) view).setBackgroundColor(0x00FF00);
-                operatorButtonID = view.getId();
+//                ((Button) view).setBackgroundColor(0x00FF00);
+//                operatorButtonID = view.getId();
+                previnput = "-";
             }
         }else if(s.equals("÷")){
             if(currentOperator == ""){
                 currentOperator = "÷";
-                ((Button) view).setBackgroundColor(0x00FF00);
+//                ((Button) view).setBackgroundColor(0x00FF00);
+                prevAns = currentAns;
+                currentAns = 0;
+                previnput = "÷";
             }else{
-                findViewById(operatorButtonID).setBackgroundColor(0xD3D3D3);
+//                findViewById(operatorButtonID).setBackgroundColor(0xD3D3D3);
                 calculate();
+                prevAns = currentAns;
+                currentAns = 0;
                 currentOperator = "÷";
-                ((Button) view).setBackgroundColor(0x00FF00);
-                operatorButtonID = view.getId();
+//                ((Button) view).setBackgroundColor(0x00FF00);
+//                operatorButtonID = view.getId();
+                previnput = "÷";
             }
         }else if(s.equals("x")){
             if(currentOperator == ""){
                 currentOperator = "x";
-                ((Button) view).setBackgroundColor(0x00FF00);
+//                ((Button) view).setBackgroundColor(0x00FF00);
+                prevAns = currentAns;
+                currentAns = 0;
+                previnput = "x";
             }else{
-                findViewById(operatorButtonID).setBackgroundColor(0xD3D3D3);
+//                findViewById(operatorButtonID).setBackgroundColor(0xD3D3D3);
                 calculate();
+                prevAns = currentAns;
+                currentAns = 0;
                 currentOperator = "x";
-                ((Button) view).setBackgroundColor(0x00FF00);
-                operatorButtonID = view.getId();
+//                ((Button) view).setBackgroundColor(0x00FF00);
+//                operatorButtonID = view.getId();
+                previnput = "x";
             }
         }else if(s.equals("%")){        //TODO evaluate divide by 100 currentans
             if(currentOperator == ""){
 
             }else{
-                findViewById(operatorButtonID).setBackgroundColor(0xD3D3D3);
+//                findViewById(operatorButtonID).setBackgroundColor(0xD3D3D3);
                 currentOperator = "";
             }
             currentAns = currentAns/100;
         } else if (s.equals(".")) {         //TODO
 
-        } else {
-            if(previnput == "" || isOperator(previnput)){
+        } else {    // input is a number
+            if(previnput.equals("") || previnput.equals("=") || currentAns == 0){
                 tvValue.setText(s);
-            }
-            else{
+            }else{      //previnput was number
                 tvValue.setText(tvValue.getText().toString() + s);
             }
             currentAns = Double.parseDouble(tvValue.getText().toString());
+            previnput = s;
         }
     }
 
     private boolean isOperator(String s){
-        if(s == "+" || s == "-" || s == "*" || s == "÷")
+        if(s.equals("+") || s.equals("-") || s.equals("*") || s.equals("÷"))
             return true;
         return false;
     }
 
     private void calculate(){
 
-        if(currentOperator == "+"){
+        if(currentOperator.equals("+")){
             currentAns  = prevAns + currentAns;
-        }else if(currentOperator == "-"){
+        }else if(currentOperator.equals("-")){
             currentAns  = prevAns - currentAns;
-        }else if(currentOperator == "*"){
-            currentAns  = prevAns - currentAns;
-        }else if(currentOperator == "÷"){
+        }else if(currentOperator.equals("x")){
+            currentAns  = prevAns * currentAns;
+        }else if(currentOperator.equals("÷")){
             currentAns  = prevAns/currentAns;
         }
         tvValue.setText(Double.toString(currentAns));
         currentOperator = "";
-        findViewById(operatorButtonID).setBackgroundColor(0xD3D3D3);
-        operatorButtonID = -1;
+//        findViewById(operatorButtonID).setBackgroundColor(0xD3D3D3);
+//        operatorButtonID = -1;
     }
 
     public void printtoview(View view) {

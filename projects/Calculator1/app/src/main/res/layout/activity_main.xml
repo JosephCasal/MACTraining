@@ -15,7 +15,7 @@
         android:layout_height="60dp"
         android:gravity="right"
         android:text=""
-        android:textSize="60sp"/>
+        android:textSize="40sp"/>
 
     <LinearLayout
         android:orientation="horizontal"
