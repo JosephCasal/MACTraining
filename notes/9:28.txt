@@ -76,8 +76,15 @@ You should never hard code anything
 
 
 
+Homework hint
+Start activity for result
 
 
+
+Week 1 Daily 4: 
+1. Create an application to take a picture from the phone and show it in the ImageView.
+2. Create an application which updates the textview with an integer value which can be updated using a “seekbar” as we move it left and right.
+3. Use at least three different action for an implicit intent
 
 
 
