@@ -1,0 +1,84 @@
+
+
+
+
+
+Java threads:
+Can implement runnable or extend thread
+By implementing runnable you are not associating it with a thread, so you have flexibility, you can just run the code without making a new thread. Runnable is the better way.
+Runnables can associate themselves dynamically, so handler associates the runnable with the main thread to get access to a textview
+
+
+Async task is a way to start a new thread
+Intent service can also be used but we will cover later in services.
+Android has main thread,
+Calculation, database calls, everything should be done on a separate thread and returned to the main thread.
+
+
+
+Thread pool executor is spawning these threads form that process
+Thread.currentThread() returns Thread[Thread-4,5,main] where thread-4 is thread number, 5 is the number of the thread pool executor ,main is the name of the thread pool executor.
+
+
+Views can only be updated on the main thread, so in the thread we get access to update textview by passing it
+
+each thread has a message queue and handler associates themselves with the thread
+Use only messages to pass data to threads
+
+
+Eventbus, a singleton class, is used in many companies, uses observer and subscriber patterns 
+Each observable sends notifications to the subscribers (using eventbus.post)
+
+
+
+
+When rotate device, activities get destroyed, so async tasks don’t know where to return to.
+Can cause memory leak because it can’t come back to the activity that started it, it can’t kill itself.
+A hack for this is to start the async task on a fragment because fragment knows how to add itself to the activity.
+Another way is to use async task loader class, has a catching mechanism.
+
+
+
+Recycler view:
+
+
+
+
+Common question:
+What is the difference between the list view and recycler view.?
+List view uses a lot of memory because it loads all the objects even if we are not looking at them.
+Recycler view reuses the views, doesn’t load all the objects immediately and repopulates. Called the view holder pattern. Also animations, sliding, grid layouts, etc. is easier to implement in recycler view. Always have to make a new adapter class for recycler view.
+Nobody uses list view!
+
+
+
+
+
+
+
+**************
+Look into handlers and loopers for threads
+
+
+
+
+
+
+
+
+
+
+
+
+For homework
+Save file on new thread
+send path back to the main thread when saved
+Pass path to second activity
+Read from file on new thread and return contents
+
+
+Saving data on android (like 4 lines of code)
+
+
+
+

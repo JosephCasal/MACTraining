@@ -1,0 +1,7 @@
+Fix calculator app
+Fix navigation drawer app (weekend1)
+Fix SavingData project from class (not running)
+Fix zoo app
+Review coding test
+Read articles and prepare for interview training w/ Candice on 10/4
+Do Homework week 2, daily 2
