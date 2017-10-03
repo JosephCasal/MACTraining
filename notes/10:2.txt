@@ -1,0 +1,73 @@
+
+Shared preference a way to store data, any user settings for the app should be saved here
+
+Can’t write objects to sharedpref, can convert whole object to string
+
+
+Person name age gender
+Person class
+Getters setters constructor
+
+3 edit text two buttons
+
+
+2 types of views that shows list
+Listview
+recyclerview
+
+
+Inflate is to connect an xml to the class
+
+
+View class has findviewbyid but array adapter does not
+
+
+
+Each module has gradle file and we add dependancies for each module
+Build.gradle (Module:app)
+
+
+Maven is where you get libraries
+Check out Google's Maven repository on 
+https://developer.android.com/studio/build/dependencies.html#google-maven
+
+
+For cardview, need to add maven to project level build.gradle repositories and 
+compile 'com.android.support:cardview-v7:26.1.0' to module level build.gradle dependencies
+
+
+
+
+
+For past weekend homework:
+When you make a new menu item, you have to inflate
+Have to override the concrete inflator
+
+
+
+
+
+For homework:
+Zoo App
+Can do button to populate database if database empty
+Use listview
+First activity main page for a zoo
+Click on animals
+Then click cats
+Then get list of lion, bird, etc
+Then click on one and show, should have images stored in the database
+To store the images use blob instead of text
+Have sound button on it using MediaPlayer
+
+
+
+
+
+
+
+
+
+
+
+
+

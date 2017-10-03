@@ -1,0 +1,19 @@
+
+
+
+Weekend 1 project
+
+Create and application 
+1. with NavigationDrawerLayout throughout the app with multiple activities. 
+2. The user should be able to navigate to different activities
+3. Add overflow menu (be creative with items in the menu) in the ActionBar of the app. Also add ActionItems on the ActionBar. (You can create different icons for each item)
+4. Use launchModes, intentFlags to handle back stack
+5. Add backward compatibility in all activities (left arrow on the app bar)
+6. Add multiple activities to app to navigate to (e.g. for playing songs(Media player), web view etc). Play around with other stuff you see in Widgets.
+
+
+
+
+Questions/Issues:
+
+In order for the sample project for navigationDrawerLayout to work had to change MainActivity to extend Activity instead of AppCompatActivity. And also had to use their theme

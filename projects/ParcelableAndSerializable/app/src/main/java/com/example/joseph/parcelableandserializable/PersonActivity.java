@@ -24,6 +24,8 @@ public class PersonActivity extends AppCompatActivity {
         tvGender = (TextView) findViewById(R.id.tvGender);
         tvAddress = (TextView) findViewById(R.id.tvAddress);
 
+        tvAddress.setcolo
+
         String action = getIntent().getAction();
 
 

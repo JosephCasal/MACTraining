@@ -42,7 +42,7 @@ Support multiple languages new values resource file
 Also can do right click strings -> open translations editor
 
 
-Build cradle files has different configurations and build types, can have multiple configurations for different builds
+Build gradle files has different configurations and build types, can have multiple configurations for different builds
 	converts whole app project into apk file and can be installed on device
 	can store api keys on here and progaurd so they won’t be found by reverse engineering
 	can add dependencies here, the libraries

@@ -1,0 +1,29 @@
+
+
+
+All activities are added to a back stack
+So if you press back button it pops from the top of the stack
+
+Handle back stack if you want different launch modes
+
+
+Single top
+When you have c and you call c again, it does not create a new instance just uses the same one, the data is received back on onnewintent(intent)
+
+Single instance
+When you have a somewhere in the stack (not on top) and call a again, it will pop all out until it gets to a and then pushes it again with a on top. Have to save everything for every activity on onnewintent
+
+Single task
+Android starts only one task by default, but can start new task ourselves.
+Activity can only exist in one task.
+Tasks will start multiple activities
+
+Standard
+
+
+
+Intent flags
+A way to handle back stack programmatically
+While sending intent you set flags and pass constant (SINGLE_TOP, SINGLE_INSTANCE, etc.)
+Then that activity will start with that launch mode
+
