@@ -65,8 +65,10 @@ Look into handlers and loopers for threads
 
 
 
-
-
+Week 2 Daily 2
+Create an application to read and write to external storage
+1. Use a thread to write the contents of the UI form from the first activity to a file.
+2. Read the contents of the file in the second activity (should be asynchronous as well) and display it.
 
 
 

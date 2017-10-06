@@ -1,0 +1,22 @@
+
+
+
+
+Interview question:
+
+How can you reference the fragments and remove them
+
+
+
+
+
+Hw:
+
+Create an application which has two fragments. 
+Fragment 1: Create a UI to add a “car” object to a list of car objects. The UI should at at least 3 fields (Model, Type, Year). 
+Fragment 2: Should have a recyclerView to show the list of car objects.
+
+-Both of the fragments should be visible at all times
+-Adding a fragment to the list would update the list and show the item in the fragment 2
+-Fragment transaction should be done through the activity
+-Can’t use Eventbus

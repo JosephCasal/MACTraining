@@ -8,6 +8,13 @@
     android:layout_height="match_parent"
     tools:context="com.example.joseph.recyclerview.MainActivity">
 
+    <Button
+        android:onClick="goToAnimals"
+        android:text="go to animal list"
+        android:id="@+id/btnGoToAnimalList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -1,0 +1,75 @@
+
+
+
+
+Shortcut
+Command + p
+
+
+
+For final project
+Due two weeks after training ends
+Work as a team
+One has repository, and the others contribute the repositories
+Should use an api, or location
+Should use database, caching, and cloud (firebase)
+
+Examples:
+Party app with location, they were using eventbrite and firebase
+Recording app that records all the calls
+Chat game application
+
+
+
+
+Notes:
+
+When you use nested recycler views you can attach to the view heairchy by passing true on .inflate
+
+
+Glide android library for image loading
+
+
+Fragments are reusable components
+Like a login view and behavior for the buttons
+Activity life cycle affects the fragment because they are attached to the parent activity
+
+Fragments without ui is headless fragments
+For behaviors without the ui.
+can be used to save the data from an activity before it is destroyed and get the fragment by tag
+
+Example:
+When you see your list of emails on a fragment
+Select an email
+The list fragment is replaced by the email content fragment
+
+
+Fragments don’t get added to the back stack by default need to use .addtobackstack
+fragment transaction lets us add or remove a fragment from the back stack
+One fragment should never add another fragment, it can call the fragment transaction
+The activity should have the control, know which fragment is at on top.
+We use fragment manager to start the fragment transaction
+
+
+
+
+
+For homework:
+Part2, should be able to reorder person list by dragging person and delete person with swipe
+Can use sample for recycler view
+
+
+
+
+
+
+
+Send assignments to project manager
+Project manager submits it to Candice by due date
+
+
+
+
+
+
+

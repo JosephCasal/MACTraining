@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+    tools:context="com.example.joseph.fragments.GreenFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvFragmentGreen"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/frag_height"
+        android:text="@string/hello_blank_fragment" />
+
+</FrameLayout>
